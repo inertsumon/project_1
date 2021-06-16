@@ -1,3 +1,4 @@
+
 body{
     font-size: 10px;
     color: #fff;
@@ -12,24 +13,26 @@ body{
 }
 #logo-img{
     background: no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
+    width: 120px;
+    height: 100px;
+    margin: 5px 20px 5px 80px;
 }
 #logo-img img{
     border-radius: 50%;
 }
+
 .navbar-brand{
-    padding-top: 25px;
+    padding-top: 20px;
+
 }
 .navbar-brand h1{
     font-family: 'Lora', serif;
     color: #557c3e;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
     line-height: .75;
 }
@@ -41,7 +44,7 @@ body{
     color:#000;
     text-transform: uppercase;
     font-size: .7em;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .navbar-brand p img{
     border-radius: 50%;
