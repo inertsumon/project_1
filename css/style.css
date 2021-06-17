@@ -2,12 +2,11 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("images/back.jpg"), url("/images/back.jpg");
+    /* background: url("/images/back.jpg"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     font-size: 10px;
-    color: #fff;
     font-family: 'Oxygen', sans-serif;
 }
 
