@@ -1,9 +1,7 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
     /* background-image: url("/images/back.jpg"); */
-    background-image: url("https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
+    background-color: rgb(36, 33, 33);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
@@ -12,7 +10,7 @@ body{
 }
 
 #header-nav{
-    background-color: #2F4F4F;
+    background-color: rgb(36, 33, 33);
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
@@ -30,7 +28,7 @@ body{
 }
 .navbar-brand h1{
     font-family: 'Lobster', cursive;
-    color: #00FF7F;
+    color: wheat;
     font-size: 1.4em;
     text-transform: uppercase;
     font-weight: bold;
@@ -40,7 +38,7 @@ body{
     margin-bottom: 0;
     line-height: 0;
 }
-
+    
 .name a, .name a:hover, .name a:focus{
     text-decoration: none;
 }  
@@ -58,19 +56,19 @@ body{
 
 }
 #navbarNav ul{
-    color: #fff;
+    color: wheat;
     margin-right: 20px;
     margin-top: 5px;
 
 }
 .nav-item a{
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-top: 0px;
     font-weight: bold;
 }
 .a-item{
-    color: rgb(7, 230, 144);
+    color: wheat;
     margin-top: 5px;
 }
 
@@ -79,14 +77,62 @@ body{
     margin-left: 18px;
     color: #00FFFF;
 }
+.delivery-item svg{
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: -8px;
+    color: #00FFFF;
+}
+.d-item{
+    color: wheat;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
 
 .a-item:hover{
 
     color: #800000;
 }
 .container-fluid button.navbar-toggler{
-    border: 2px solid black;
+    border: 1px solid wheat;
 }
+ .carousel-caption h5{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 3vw;   
+    border: 3px dotted white;
+    background-color:black;
+    
+}
+.carousel-caption p{
+    color: wheat;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2vw;   
+    border: 2px dotted white;
+    background-color:black;
+}
+.col-md-3{
+    margin-top: 10px;
+}
+
+.card-body{
+    background-color: darkgray;
+}
+.card-body h4{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.card-body p{
+    font-size: 15px;
+    font-style:italic;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
 
 @media (min-width: 1200px) {
 
@@ -106,20 +152,19 @@ body{
 
 /********** Extra small devices only **********/
 @media (max-width: 768px) {
-  /* Header */
+
   #header-nav{
-    height: 80px;
-    background-color: #2F4F4F;
+    background-color: rgb(36, 33, 33);
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
 }
   .navbar-brand h1{
     font-family: 'Lobster', cursive;
-    color: #00FF7F;
+    color: wheat;
     font-size: 3vw;
     text-transform: uppercase;
-    margin-bottom: -10px;
+    margin-bottom: -18px;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -127,12 +172,32 @@ body{
     color: #f83535;
     text-transform: uppercase;
     font-size: 2vw;
+    font-weight: bold;
     margin-left: 20px;
 }
 .container-fluid button.navbar-toggler{
-    border: 2px solid black;
+    border: 1px solid wheat;
     padding:0;
 
+}
+.carousel-item img{
+    width: 50%;
+    height: 50%;
+}
+.col-md-3{
+    width: 50%;
+    height: 50%;
+}
+.card-body h4{
+    font-size: 4vw;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.card-body p{
+    font-size: 3vw;
+    font-style:italic;
+    font-family: 'Oxygen', sans-serif;
 }
   }
 
