@@ -29,7 +29,7 @@ body{
 
 }
 .navbar-brand h1{
-    font-family: 'Lora', serif;
+    font-family: 'Lobster', cursive;
     color: #00FF7F;
     font-size: 1.4em;
     text-transform: uppercase;
@@ -115,24 +115,23 @@ body{
     border: 0;
 }
   .navbar-brand h1{
-    font-family: 'Lora', serif;
+    font-family: 'Lobster', cursive;
     color: #00FF7F;
     font-size: 3vw;
     text-transform: uppercase;
     margin-bottom: -10px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .name p{
     color: #f83535;
     text-transform: uppercase;
     font-size: 2vw;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .container-fluid button.navbar-toggler{
     border: 2px solid black;
     padding:0;
-    margin-top:-10px;
 
 }
   }
