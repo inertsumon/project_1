@@ -63,7 +63,7 @@ body{
 }
 .nav-item a{
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-top: 0px;
     font-weight: bold;
 }
@@ -74,7 +74,7 @@ body{
 
 .nav-item svg{
     margin-top: 10px;
-    margin-left: 18px;
+    margin-left: 15px;
     color: #00FFFF;
 }
 .delivery-item svg{
@@ -89,6 +89,7 @@ body{
     margin-bottom: -5px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .a-item:hover{
@@ -199,6 +200,27 @@ body{
     font-style:italic;
     font-family: 'Oxygen', sans-serif;
 }
+.d-item{
+    color: wheat;
+    margin-top: 0px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+.a-item{
+    color: wheat;
+    margin-top: 0px;
+    font-size: 2vw;
+}
+
+.delivery-item svg{
+    margin-top: -10px;
+    margin-left: 25px;
+    margin-bottom: -8px;
+    color: #00FFFF;
+}
+
   }
 
 
