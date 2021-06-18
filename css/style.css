@@ -1,7 +1,7 @@
 
 body{
     /* background-image: url("/images/back.jpg"); */
-    background-color: rgb(36, 33, 33);
+    background-color: rgb(46, 43, 43);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
@@ -10,7 +10,7 @@ body{
 }
 
 #header-nav{
-    background-color: rgb(36, 33, 33);
+    background-color: black;
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
@@ -58,30 +58,20 @@ body{
 #navbarNav ul{
     color: wheat;
     margin-right: 20px;
-    margin-top: 5px;
+    margin-top: 15px;
 
 }
-.nav-item a{
-    text-transform: uppercase;
-    font-size: 1.5em;
-    margin-top: 0px;
-    font-weight: bold;
-}
+
 .a-item{
     color: wheat;
+    text-transform: uppercase;
+    font-size: 1.5em;
     margin-top: 5px;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
 }
-
-.nav-item svg{
-    margin-top: 10px;
-    margin-left: 15px;
-    color: #00FFFF;
-}
-.delivery-item svg{
-    margin-top: -10px;
-    margin-left: 40px;
-    margin-bottom: -8px;
-    color: #00FFFF;
+.nav-item img{
+margin-left: 22px;
 }
 .d-item{
     color: wheat;
@@ -96,21 +86,24 @@ body{
 
     color: #800000;
 }
-.container-fluid button.navbar-toggler{
-    border: 1px solid wheat;
+
+#tgl button.navbar-toggler{
+    border: 1px solid rgb(211, 162, 72);
+    color: white;
+    background-color: white;
 }
  .carousel-caption h5{
     font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 3vw;   
+    color: #ffffff;
+    font-size: 2.5vw;   
     border: 3px dotted white;
     background-color:black;
     
 }
 .carousel-caption p{
-    color: wheat;
+    color: white;
     font-family: 'Oxygen', sans-serif;
-    font-size: 2vw;   
+    font-size: 1.2vw;   
     border: 2px dotted white;
     background-color:black;
 }
@@ -129,33 +122,115 @@ body{
 }
 .card-body p{
     font-size: 15px;
-    font-style:italic;
     font-family: 'Oxygen', sans-serif;
+}
+.card-body:hover, .card-img-top:hover{
+    box-shadow: 0px 2px 5px 2px #cccccc;
+
+}
+#footer{
+    background-color: black;
+}
+.footer-col{
+    color: white;
+}
+.widget-title{
+    font-size: 20px; 
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+#footer-desc{
+    color: white;
+    font-size: 15px; 
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+#footer-desc2{
+    color: white;
+    font-size: 15px; 
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    font-style: italic;
+}
+.thumb-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px; 
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+#domain{
+    text-decoration: none;
+    color: white;
+    font-size: 15px; 
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 18px;
+    padding: 6px;
+    border: 1px solid white;
+}
+.social-footer2{
+    list-style-type: none;
+}
+.thumb-content:hover{
+    box-shadow: 0px 2px 5px 2px #cccccc;
+}
+
+#domain:hover{
+    box-shadow: 0px 2px 5px 2px #cccccc;
+}
+#social:hover{
+    box-shadow: 0px 2px 5px 2px #cccccc;
 }
 
 
-
 @media (min-width: 1200px) {
-
+    #map-card iframe{
+        width: 100%;
+    }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
- 
+  #map-card iframe{
+    width: 100%;
+}
   /* End Header */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+    #map-card iframe{
+        width: 100%;
+    }
+    .delivery-item img{
+        margin-top: -10px;
+        margin-left: 65px;
+        margin-bottom: -10px;
+        color: #00FFFF;
+    }
+    #domain{
+        text-decoration: none;
+        color: white;
+        font-size: 10px; 
+        font-family: 'Oxygen', sans-serif;
+        margin-left: 15px;
+        padding: 3px;
+        border: 1px solid white;
+    }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 768px) {
-
+    #map-card iframe{
+        width: 100%;
+    }
   #header-nav{
-    background-color: rgb(36, 33, 33);
+    background-color:black;
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
@@ -176,9 +251,11 @@ body{
     font-weight: bold;
     margin-left: 20px;
 }
-.container-fluid button.navbar-toggler{
+
+.container-fluid button{
     border: 1px solid wheat;
     padding:0;
+    background-color: white;
 
 }
 .carousel-item img{
@@ -197,7 +274,6 @@ body{
 }
 .card-body p{
     font-size: 3vw;
-    font-style:italic;
     font-family: 'Oxygen', sans-serif;
 }
 .d-item{
@@ -214,11 +290,20 @@ body{
     font-size: 2vw;
 }
 
-.delivery-item svg{
+.delivery-item img{
     margin-top: -10px;
-    margin-left: 25px;
+    margin-left: 45px;
     margin-bottom: -8px;
     color: #00FFFF;
+}
+#domain{
+    text-decoration: none;
+    color: white;
+    font-size: 10px; 
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 15px;
+    padding: 3px;
+    border: 1px solid white;
 }
 
   }
