@@ -1,7 +1,7 @@
 
 body{
     /* background-image: url("/images/back.jpg"); */
-    background-color: rgb(46, 43, 43);
+    background-color: #25274d;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
@@ -309,3 +309,41 @@ margin-left: 22px;
   }
 
 
+  .accordion-button{
+    color: white;
+    background-color: black;
+
+  }
+  #item-details{
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    text-align:justify;
+  }
+  .accordion-body{
+    font-size: 15px;
+    font-family: 'Oxygen', sans-serif;
+  }
+  .accordion-body a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  #pizza-item{
+    font-size: 25px;
+    font-family: 'Oxygen', sans-serif;
+    text-align:center;
+    color: white;
+    text-shadow: black;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(221, 8, 8);
+
+  }
+  #menu-page h2{
+    font-size: 25px;
+    font-family: 'Oxygen', sans-serif;
+    text-align:center;
+    color: white;
+    text-shadow: black;
+    font-weight: bold; 
+    text-shadow: 5px 5px 5px rgb(221, 8, 8);
+  }
