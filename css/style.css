@@ -203,7 +203,7 @@ margin-left: 22px;
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
     #map-card iframe{
         width: 100%;
     }
@@ -238,7 +238,7 @@ margin-left: 22px;
   .navbar-brand h1{
     font-family: 'Lobster', cursive;
     color: wheat;
-    font-size: 3vw;
+    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: -18px;
     font-weight: bold;
@@ -247,7 +247,7 @@ margin-left: 22px;
 .name p{
     color: #f83535;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 15px;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -262,10 +262,16 @@ margin-left: 22px;
     width: 50%;
     height: 50%;
 }
-.col-md-3{
+#small-card{
     width: 50%;
     height: 50%;
 }
+#about-card{
+    width: 50%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
 .card-body h4{
     font-size: 4vw;
     font-style: oblique;
@@ -336,6 +342,8 @@ margin-left: 22px;
     text-shadow: black;
     font-weight: bold;
     text-shadow: 5px 5px 5px rgb(221, 8, 8);
+    margin-top: 30px;
+    margin-bottom: 20px;
 
   }
   #menu-page h2{
